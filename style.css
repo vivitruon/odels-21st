@@ -1,0 +1,50 @@
+body {
+  background: #d3e8ef;
+  color: #222;
+  font-family: "Courier New", monospace;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center; /* ensure everything inside is centered by default */
+}
+
+p {
+  margin: 24px 0;
+  font-size: 15px;
+}
+
+pre {
+  font-size: 13px;
+  line-height: 1.1;
+  margin: 50px auto; /* center pre blocks horizontally */
+  overflow-x: auto;
+  text-align: center; /* center content inside pre */
+}
+
+.center {
+  text-align: center;
+}
+
+.soft {
+  color: #666;
+  font-size: 13px;
+}
+
+.sound-control button {
+  background: transparent;
+  border: 1px dashed #aaa;
+  padding: 6px 12px;
+  font-family: inherit;
+  font-size: 0.9em;
+  cursor: pointer;
+  color: #444;
+}
+
+.sound-control button:hover {
+  border-color: #777;
+  color: #000;
+}
